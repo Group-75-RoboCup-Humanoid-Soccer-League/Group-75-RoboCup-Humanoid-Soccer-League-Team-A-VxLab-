@@ -4,10 +4,10 @@ import { ImageIcon } from 'lucide-react'
 // Replace with the real RMIT Redbacks Robocup roster.
 // image: path under /public, e.g. '/team/jane-doe.jpg'. Leave null until you have a photo.
 const TEAM_MEMBERS = [
-  { name: 'Jariah Alam', role: 'PM', bio: 's3986116@student.rmit.edu.au', image: null },
+  { name: 'Jariah Alam', role: 'PM', bio: 's3986116@student.rmit.edu.au', image: '/team/Jariah.jpg' },
   { name: 'Mohammed Falah', role: 'Dev', bio: 's4096486@student.rmit.edu.au', image: null },
-  { name: 'Jordan Nguyen', role: 'Dev', bio: 'S4030581@rmit.edu.vn', image: null },
-  { name: 'Jaskaran Singh .', role: 'UX', bio: 's4089250@student.rmit.edu.au', image: null },
+  { name: 'Jordan Nguyen', role: 'Dev', bio: 'S4030581@rmit.edu.vn', image: '/team/Jordan.jpg' },
+  { name: 'Jaskaran Singh .', role: 'UX', bio: 's4089250@student.rmit.edu.au', image: '/team/Jaskaran.jpg' },
   { name: 'Sayed Isfaque Ahmed Anan', role: 'BA', bio: 's3986132@student.rmit.edu.au', image: '/team/Sayed.jpg' },
 ]
 
@@ -19,11 +19,11 @@ export default function TeamPage() {
         <p className="text-sm text-zinc-500">RMIT Redbacks Robocup team!</p>
       </div>
 
-      <div className="mt-12 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6">
+     <div className="mt-12 flex flex-wrap justify-center gap-5">
         {TEAM_MEMBERS.map((member, index) => (
-          <div
+        <div
             key={index}
-            className="flex flex-col overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm"
+            className="flex flex-col overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm w-48"
           >
             <div className="relative flex aspect-square items-center justify-center bg-zinc-200">
               {member.image ? (

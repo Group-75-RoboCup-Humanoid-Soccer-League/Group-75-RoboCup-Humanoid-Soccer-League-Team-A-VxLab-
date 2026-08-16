@@ -5,7 +5,7 @@ import { ImageIcon } from 'lucide-react'
 // image: path under /public, e.g. '/team/jane-doe.jpg'. Leave null until you have a photo.
 const TEAM_MEMBERS = [
   { name: 'Jariah Alam', role: 'PM', bio: 's3986116@student.rmit.edu.au', image: '/team/Jariah.jpg' },
-  { name: 'Mohammed Falah', role: 'Dev', bio: 's4096486@student.rmit.edu.au', image: null },
+  { name: 'Mohammed Falah', role: 'Dev', bio: 's4096486@student.rmit.edu.au', image: 'Mohammed.jpg' },
   { name: 'Jordan Nguyen', role: 'Dev', bio: 'S4030581@rmit.edu.vn', image: '/team/Jordan.jpg' },
   { name: 'Jaskaran Singh .', role: 'UX', bio: 's4089250@student.rmit.edu.au', image: '/team/Jaskaran.jpg' },
   { name: 'Sayed Isfaque Ahmed Anan', role: 'BA', bio: 's3986132@student.rmit.edu.au', image: '/team/Sayed.jpg' },

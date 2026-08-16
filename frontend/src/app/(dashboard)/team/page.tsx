@@ -4,11 +4,41 @@ import { ImageIcon } from 'lucide-react'
 // Replace with the real RMIT Redbacks Robocup roster.
 // image: path under /public, e.g. '/team/jane-doe.jpg'. Leave null until you have a photo.
 const TEAM_MEMBERS = [
-  { name: 'Jariah Alam', role: 'PM', bio: 's3986116@student.rmit.edu.au', image: '/team/Jariah.jpg' },
-  { name: 'Mohammed Falah', role: 'Dev', bio: 's4096486@student.rmit.edu.au', image: '/team/Mohammed.jpg' },
-  { name: 'Jordan Nguyen', role: 'Dev', bio: 'S4030581@rmit.edu.vn', image: '/team/Jordan.jpg' },
-  { name: 'Jaskaran Singh .', role: 'UX', bio: 's4089250@student.rmit.edu.au', image: '/team/Jaskaran.jpg' },
-  { name: 'Sayed Isfaque Ahmed Anan', role: 'BA', bio: 's3986132@student.rmit.edu.au', image: '/team/Sayed.jpg' },
+  { 
+    name: 'Jariah Alam', 
+    role: 'PM', 
+    bio: 's3986116@student.rmit.edu.au', 
+    image: '/team/Jariah.jpg',
+    blurb: 'Project Manager keeping the team on track.'
+  },
+  { 
+    name: 'Mohammed Falah', 
+    role: 'Dev', 
+    bio: 's4096486@student.rmit.edu.au', 
+    image: '/team/Mohammed.jpg',
+    blurb: 'Full stack developer.'
+  },
+  { 
+    name: 'Jordan Nguyen', 
+    role: 'Dev', 
+    bio: 'S4030581@rmit.edu.vn', 
+    image: '/team/Jordan.jpg',
+    blurb: 'Full stack developer.'
+  },
+  { 
+    name: 'Jaskaran Singh .', 
+    role: 'UX', 
+    bio: 's4089250@student.rmit.edu.au', 
+    image: '/team/Jaskaran.jpg',
+    blurb: 'Designing the user experience.'
+  },
+  { 
+    name: 'Sayed Isfaque Ahmed Anan', 
+    role: 'BA', 
+    bio: 's3986132@student.rmit.edu.au', 
+    image: '/team/Sayed.jpg',
+    blurb: 'Business analyst bridging tech and business.'
+  },
 ]
 
 export default function TeamPage() {

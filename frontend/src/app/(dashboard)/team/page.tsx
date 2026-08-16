@@ -1,8 +1,7 @@
 import Image from 'next/image'
 import { ImageIcon } from 'lucide-react'
 
-// Replace with the real RMIT Redbacks Robocup roster.
-// image: path under /public, e.g. '/team/jane-doe.jpg'. Leave null until you have a photo.
+
 const TEAM_MEMBERS = [
   { 
     name: 'Jariah Alam', 
@@ -72,6 +71,7 @@ export default function TeamPage() {
               <p className="text-sm font-semibold text-zinc-900">{member.name}</p>
               <p className="text-sm font-medium text-[#c1524c]">{member.role}</p>
               <p className="text-xs leading-snug text-zinc-400">{member.bio}</p>
+              <p className="text-xs leading-snug text-zinc-500 italic mt-1">{member.blurb}</p>
             </div>
           </div>
         ))}

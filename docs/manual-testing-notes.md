@@ -31,7 +31,7 @@ Missing photo
 No one's missing a photo right now so couldn't test that one.
 
 Long blurb
-Couldn't test - team page only shows photo, name, role and email atm, there's no blurb field for anyone. might be missing from the build, need to check with Jordan/PM since the brief says blurb should be there too.
+Tested with a short blurb first (wraps/displays fine), then tested with a longer blurb once someone updated theirs - wraps onto the next line properly, displays fine, no overflow or layout issues.
 
 No bugs found otherwise.
 
